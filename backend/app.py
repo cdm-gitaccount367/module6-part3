@@ -1,3 +1,4 @@
+# Imports
 from flask import Flask, render_template, request, redirect, session, url_for, flash, jsonify
 from flask_pymongo import PyMongo
 from werkzeug.security import generate_password_hash, check_password_hash
