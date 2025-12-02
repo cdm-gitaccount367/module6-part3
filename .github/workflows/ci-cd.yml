@@ -159,6 +159,7 @@ jobs:
 
           # ---- Commit (if needed) and push
           git add -A
+          git status
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
